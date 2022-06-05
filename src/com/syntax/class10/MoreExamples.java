@@ -17,15 +17,13 @@ public class MoreExamples {
 		 * outer for loops -> iterates over 1D array
 		 * inner loop --> iterates over elements of each 1D array
 		 */
-		
-		for(int[] num:nums) {
-			
-			for(int n:num) {
-				
-				System.out.print(n+" ");
-			}
-			System.out.println();
-		}
+		/*
+		 * for(int[] num:nums) {
+		 * 
+		 * for(int n:num) {
+		 * 
+		 * System.out.print(n+" "); } System.out.println(); }
+		 */
 		/*
 		 * i loop iterates over rows 
 		 * nums.length gives # of arrays inside 2D array =3 j
